@@ -56,7 +56,7 @@ const GridCell = forwardRef(({id,  rotated},ref) => {
     }
 
     if(type == "visited"){
-        color = "#B7AD99"
+        color = "#ccc"
         
     }
 
@@ -70,7 +70,7 @@ const GridCell = forwardRef(({id,  rotated},ref) => {
         borderRight: (!rightBorder && !rotated) || (!topBorder && rotated) || shouldBorder? "none" : "",
         borderTop: (!topBorder && !rotated) || (!leftBorder && rotated) || shouldBorder ?  "none": "",
         borderBottom: (!bottomBorder && !rotated) || (!rightBorder && rotated)  || shouldBorder? "none" : "",
-        borderColor: (type == "visited"? "black":""),
+        borderColor: (type == "visited"? "":""),
       
       };
 
