@@ -1,0 +1,15 @@
+.line-enter {
+  transition: x2 1s,   y2 1s;
+}
+
+.line-enter-active {
+  stroke-dashoffset: 0;
+}
+
+.line-exit {
+  transition: stroke-dashoffset 1s;
+}
+
+.line-exit-active {
+  stroke-dashoffset: 100%;
+}

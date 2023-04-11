@@ -1,0 +1,116 @@
+
+
+
+
+
+.ForceGraphEditor {
+
+    display:grid;
+
+    grid-template-columns: repeat(1fr, 3);
+
+    background-color:#FFFFF3;
+
+    border: 10px solid transparent;
+    box-sizing: border-box;
+
+    gap: 10px;
+}
+
+
+
+.NodeType {
+    color: #FFFFF3;
+    box-sizing: border-box;
+    border: 2px solid #FFFFF3;
+    background-color:#00D9C0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-weight: bold;
+    border-radius: 12%;
+    transition: color 0.2s ease-in,  border-radius 0.2s ease-out;
+
+    text-align: center;
+    font-size: 1.5rem;
+ 
+ 
+   
+    }
+ 
+    .NodeType.selected{
+       border-radius: 25%;
+       
+       background-color: #FFFFF3;
+       border-color: #00D9C0; }
+
+
+    .NodeType.selected.start {
+        color: green;
+    }
+
+    .NodeType.selected.end{
+        color:red;
+    }
+
+
+
+    .EditGraph{
+
+
+        color: black;
+        box-sizing: border-box;
+        border: 2px solid #B7AD99;
+        background-color:#FFFFF3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 12%;
+        transition: color 0.2s ease-in,  border-radius 0.2s ease-out;
+     box-sizing: border-box;
+     
+        
+    }
+
+
+    .EditGraph.selected{
+
+        border-radius: 25%;
+        background-color: #B7AD99;
+        color: black;
+    }
+
+    .EditGraph.selected.delete{
+
+        background-color: darkred;
+        color: #FFFFF3
+    }
+
+    .Cluster{
+
+
+        text-align: center;
+        font-size: 1.5rem;
+        color: #FFFFF3;
+        box-sizing: border-box;
+        border: 2px solid #FFFFF3;
+        background-color: #FF4365;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-weight: bold;
+        border-radius: 12%;
+        transition: color 0.2s ease-in,  border-radius 0.2s ease-out
+     
+    
+    }
+
+    .Cluster.selected{
+
+        border-radius: 25%;
+    }
