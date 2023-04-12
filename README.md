@@ -1,3 +1,5 @@
+
+
 #React Search Algorithm Visualizer
 This is a web application built with React that allows users to visualize search algorithms on a grid or a node-link diagram. The app consists of two pages - a grid page and a node-link diagram page. The app currently supports the following search algorithms:
 *Breadth-First Search
