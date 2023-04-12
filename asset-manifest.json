@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SearchAlgorithmWebApp/static/css/main.e42a7035.css",
+    "main.js": "/SearchAlgorithmWebApp/static/js/main.455fcfea.js",
+    "static/js/787.5f0edbc5.chunk.js": "/SearchAlgorithmWebApp/static/js/787.5f0edbc5.chunk.js",
+    "static/media/logo.svg": "/SearchAlgorithmWebApp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/SearchAlgorithmWebApp/index.html",
+    "main.e42a7035.css.map": "/SearchAlgorithmWebApp/static/css/main.e42a7035.css.map",
+    "main.455fcfea.js.map": "/SearchAlgorithmWebApp/static/js/main.455fcfea.js.map",
+    "787.5f0edbc5.chunk.js.map": "/SearchAlgorithmWebApp/static/js/787.5f0edbc5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e42a7035.css",
+    "static/js/main.455fcfea.js"
+  ]
+}
