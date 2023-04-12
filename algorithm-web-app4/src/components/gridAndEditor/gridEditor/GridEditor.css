@@ -1,0 +1,102 @@
+ .GridEditor {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    background-color: #FFFFF3;
+    gap: 10px;
+
+    overflow: auto;
+
+
+    border: 10px solid transparent;
+    box-sizing: border-box;
+   
+
+ }
+
+ .GridEditor.vertical {
+
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7,1fr);
+ }
+
+ .GridEditor.horizontal {
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 1fr;
+ }
+
+ .CellType {
+
+   text-align: center;
+   cursor: pointer;
+   color: #FFFFF3;
+   box-sizing: border-box;
+   border: 2px solid #FFFFF3;
+   background-color:#00D9C0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   font-size: 1.5rem;
+   font-weight: bold;
+   border-radius: 12%;
+
+ 
+   transition: color 0.2s ease-in,  border-radius 0.2s ease-out
+
+
+  
+   }
+
+   .CellType.selected{
+      border-radius: 25%;
+      
+      background-color: #FFFFF3;
+      border-color: #00D9C0; }
+
+   .CellType.selected.start{
+      color:green;
+   }
+
+   .CellType.none {
+
+      background-color: darkred;
+      color: #FFFFF3;
+   }
+
+   .CellType.selected.none{
+      color:darkred;
+      background-color: #FFFFF3;
+      border-color: darkred;
+   }
+
+   .CellType.selected.end{
+      color:red;
+   }
+   .CellType.selected.obstacle{
+      color:black;
+   }
+
+
+ .Maze {
+
+   background-color:#FF4365;
+   color: #FFFFF3;
+   width: 100%;
+   height: 100%;
+   
+
+   border: 2px black solid;
+
+   border-radius: 12%;
+   box-sizing: border-box;
+   display: flex;
+
+   align-items: center;
+   justify-content: center;
+   
+   font-weight: bold;
+   cursor:pointer;
+ 
+   font-size: 1.5 rem;
+ }

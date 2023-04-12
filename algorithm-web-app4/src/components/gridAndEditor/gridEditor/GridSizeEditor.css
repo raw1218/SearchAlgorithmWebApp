@@ -1,0 +1,139 @@
+
+
+
+.gridSizeEditor {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    width: 100%;
+    
+   
+ 
+    border: 2px #FFFFF3;
+
+
+    background-color: #FFFFF3;
+    border-radius: 12%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.gridSizeEditor.submit.top {
+    grid-template-rows: 0.25fr 1fr;
+}
+
+.gridSizeEditor.submit.bottom {
+    grid-template-rows: 1fr 0.25fr;
+}
+
+.gridSizeEditor.noSubmit {
+    grid-template-rows: 1fr; 
+}
+
+.submitButton {
+    height: 100%;
+    width: 100%;
+    background-color: #00D9C0;
+    color: #FFFFF3;
+    font-weight: bold;
+    border: 2px solid #FFFFF3;
+    box-sizing: border-box;
+    border-radius: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor:pointer;
+}
+
+.submitButton.No {
+
+cursor:default;
+}
+
+
+
+.dimensions {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+
+  
+}
+
+/* GridSizeDimension */
+.dimension {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-rows: 1fr 1.5fr 1fr;
+    grid-template-columns: 1fr;
+}
+
+.dimensionInput {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #FFFFF3;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: #030301;
+    font-weight: bold;
+    display: flex;
+
+    justify-content: center;
+}
+
+
+
+.dimensionButtonUp {
+    height: 100%;
+    width: 100%;
+    margin: none;
+    padding: none;
+    background-color: #00D9C0;
+    color: #FFFFF3;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.dimensionButtonDown {
+    height: 100%;
+    width: 100%;
+    margin: none;
+    padding: none;
+    background-color:#00D9C0;
+    color: #FFFFF3;
+    font-weight: bold;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+.dimensionLabel{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

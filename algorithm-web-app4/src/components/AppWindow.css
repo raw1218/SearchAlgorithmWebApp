@@ -1,0 +1,33 @@
+
+
+.AppWindow{
+
+    height: 100%;
+    width: 100%;
+    display: grid;
+
+    background-color: #FFFFF3 ;
+   
+}
+
+
+
+
+
+
+
+.GridAndEditor{
+    width: 100%;
+    height: 100%;
+    display: grid;
+
+}
+
+.app-window {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+
+
