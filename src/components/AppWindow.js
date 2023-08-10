@@ -18,7 +18,7 @@ const AppWindow = () => {
     const [windowDimensions, setWindowDimensions] = useState({ width: 0, height: 0 });
     const appWindowRef = useRef(null);
 
-    const [visualizationType, setVisualizationType] = useState("grid");
+    const [visualizationType, setVisualizationType] = useState("node-link diagram");
     const algorithmRef = useRef(new Algorithm({graph: new Graph({})}))
 
     const [update,setUpdate] = useState(false);
